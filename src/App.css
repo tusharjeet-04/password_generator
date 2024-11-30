@@ -1,0 +1,149 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #5a5a82;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .Main-parent {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 10px 14px 20px black;
+    text-align: center;
+    width: 400px;
+  }
+  
+  h1 {
+    color: #4a90e2;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .input-box label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .input-box input {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-left: -10px;
+  }
+  
+  .checkbox-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-child {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-child label {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+  
+  input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #357ab8;
+  }
+  
+  .passwordgenerate {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    word-wrap: break-word;
+  }
+  
+  /* Tablet view */
+  @media (max-width: 768px) {
+    .Main-parent {
+      width: 90%;
+      padding: 20px;
+      margin-left: -15px;
+      
+    }
+  
+    h1 {
+      font-size: 22px;
+    }
+  
+    .button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .passwordgenerate {
+      font-size: 16px;
+    }
+  }
+  
+  /* Mobile view */
+  @media (max-width: 480px) {
+    .Main-parent {
+      width: 100%;
+      padding: 15px;
+      box-shadow: 5px 5px 20px black;
+      margin-left: -15px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    .input-box input {
+      padding: 6px 8px;
+      font-size: 14px;
+    }
+  
+    .checkbox-child label {
+      font-size: 12px;
+    }
+  
+    input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+    }
+  
+    .button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  
+    .passwordgenerate {
+      font-size: 14px;
+    }
+  }
+  
